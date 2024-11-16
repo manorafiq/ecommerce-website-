@@ -161,13 +161,16 @@ ul li i:hover{
     height: 33px;
     outline: none;
     font-size: 18px;
+    padding-left: 5px;
 }
 .inp button{
     width: 100px;
-    height: 33px;
+    height: 36px;
     background-color: rgb(2, 173, 173);
     color: white;
     border: none;
+    margin-left: 5px;
+    border-radius: 2px;
 }
 .footer{
     display: flex;

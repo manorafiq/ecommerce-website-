@@ -14,11 +14,11 @@ function homes(){
     blog.style.display="block";
     about.style.display="none";
 
-document.getElementsById("blog").style.color="black";
-document.getElementsById("home").style.color="rgb(2, 173, 173)";
-document.getElementsById("shop").style.color="black";
-document.getElementsById("contact").style.color="black";
-document.getElementsById("about").style.color="black";
+document.getElementById("blog").style.color="black";
+document.getElementById("home").style.color="rgb(2, 173, 173)";
+document.getElementById("shop").style.color="black";
+document.getElementById("contact").style.color="black";
+document.getElementById("about").style.color="black";
 
 }
 
@@ -29,11 +29,11 @@ about.style.display="none";
 card.style.display="block";
  card2.style.display="block";
 
-document.getElementsById("blog").style.color="black";  
-document.getElementsById("home").style.color="black";
-document.getElementsById("shop").style.color="rgb(2, 173, 173" ;
-document.getElementsById("contact").style.color="black";
-document.getElementsById("about").style.color="black";
+document.getElementById("blog").style.color="black";  
+document.getElementById("home").style.color="black";
+document.getElementById("shop").style.color="rgb(2, 173, 173" ;
+document.getElementById("contact").style.color="black";
+document.getElementById("about").style.color="black";
 
 }
 
@@ -45,11 +45,11 @@ function blogs(){
     about.style.display="none";
 
 
- document.getElementsById("blog").style.color="rgb(2, 173, 173)"; 
- document.getElementsById("home").style.color="black";
- document.getElementsById("shop").style.color="black";
- document.getElementsById("contact").style.color="black";
- document.getElementsById("about").style.color="black";
+ document.getElementById("blog").style.color="rgb(2, 173, 173)"; 
+ document.getElementById("home").style.color="black";
+ document.getElementById("shop").style.color="black";
+ document.getElementById("contact").style.color="black";
+ document.getElementById("about").style.color="black";
  
    
    
@@ -62,11 +62,11 @@ function abouts(){
    blog.style.display="none";
    about.style.display="block";
 
- document.getElementsById("blog").style.color="black";
- document.getElementsById("home").style.color="black";
- document.getElementsById("shop").style.color="black";
- document.getElementsById("contact").style.color="black";
- document.getElementsById("about").style.color="rgb(2, 173, 173)"; 
+ document.getElementById("blog").style.color="black";
+ document.getElementById("home").style.color="black";
+ document.getElementById("shop").style.color="black";
+ document.getElementById("contact").style.color="black";
+ document.getElementById("about").style.color="rgb(2, 173, 173)"; 
 }
 
 function contacts(){
@@ -77,19 +77,19 @@ function contacts(){
    about.style.display="none";
    contact.style.display="block";
 
-   document.getElementsById("blog").style.color="black";
- document.getElementsById("home").style.color="black";
- document.getElementsById("shop").style.color="black";
- document.getElementsById("contact").style.color="black";
- document.getElementsById("about").style.color="black";
- document.getElementsById("contact").style.color="rgb(2, 173, 173)";
+   document.getElementById("blog").style.color="black";
+ document.getElementById("home").style.color="black";
+ document.getElementById("shop").style.color="black";
+ document.getElementById("contact").style.color="black";
+ document.getElementById("about").style.color="black";
+ document.getElementById("contact").style.color="rgb(2, 173, 173)";
 }
 // cart
 
 function show(img){
-    let newImg = document.getElementsById("newImg");
+    let newImg = document.getElementById("newImg");
     console.log(img);
-    newImg.src=img.src;
+    newImg.src = img.src;
 
     mainpage.style.display="none";
     card.style.display="none";
